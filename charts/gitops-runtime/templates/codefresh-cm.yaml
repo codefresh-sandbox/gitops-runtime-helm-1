@@ -1,4 +1,4 @@
-# TESTTTT111
+# TESTTTT1111
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -15,5 +15,5 @@ data:
   ingressClassName: {{ .Values.global.runtime.ingress.className | default "" | quote }}
   ingressController: {{ .Values.global.runtime.ingress.className | default "" | quote }}
   ingressHost: {{ include "codefresh-gitops-runtime.ingress-url" . }}
-  isConfigurationRuntime: {{ .Values.global.runtime.isConfigurationRuntime | quote }} 
+  isConfigurationRuntime: {{ .Values.global.runtime.isConfigurationRuntime | quote }}
   version: {{ .Chart.AppVersion }}
