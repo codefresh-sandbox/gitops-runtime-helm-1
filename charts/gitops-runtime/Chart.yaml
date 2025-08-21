@@ -15,6 +15,8 @@ annotations:
   artifacthub.io/alternativeName: "codefresh-gitops-runtime"
   artifacthub.io/changes: |-
     - kind: changed
+      description: Update codefresh-cm.yaml (#13)
+    - kind: changed
       description: 'chore: Gitops Operator to v0.8.11 to fix 4 issues (#624)'
     - kind: changed
       description: 'fix: GITOPS_OPERATOR_VERSION should be based upon its own tag, and not the chart appVersion (#626)'
