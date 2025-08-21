@@ -15,8 +15,6 @@ annotations:
   artifacthub.io/alternativeName: "codefresh-gitops-runtime"
   artifacthub.io/changes: |-
     - kind: changed
-      description: 'patch: test PR against stable (#4)'
-    - kind: changed
       description: Test PR against stable - payload
     - kind: changed
       description: update operator
