@@ -9,4 +9,4 @@ docker run \
     -v "$CHART_DIR:/helm-docs" \
     -u $(id -u) \
     --rm \
-    jnorwood/helm-docs:v1.9.1
+    jnorwood/helm-docs:v1.12.0
