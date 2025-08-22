@@ -2,7 +2,7 @@ apiVersion: v2
 appVersion: 0.1.72
 description: A Helm chart for Codefresh gitops runtime
 name: gitops-runtime
-version: 0.90.0
+version: 0.90.1
 home: https://github.com/codefresh-io/gitops-runtime-helm
 icon: https://avatars1.githubusercontent.com/u/11412079?v=3
 keywords:
@@ -15,59 +15,7 @@ annotations:
   artifacthub.io/alternativeName: "codefresh-gitops-runtime"
   artifacthub.io/changes: |-
     - kind: changed
-      description: 'feat: alice (#21)'
-    - kind: changed
-      description: 'feat: bar (#7)'
-    - kind: changed
-      description: bumped argocd to 8.0.6-8-cap-v3.0.2-2025-08-12-9c8dfae9 (#664)
-    - kind: changed
-      description: bumped app-proxy to 1.3707.0 closed ha gaps (#667)
-    - kind: changed
-      description: 'fix: remove checksum tests as they fail when chart version changes (#670)'
-    - kind: changed
-      description: updated codefresh-gitops-operator (#666)
-    - kind: changed
-      description: updated cli-v2, kubectl in runtime-installer (#661)
-    - kind: changed
-      description: using bitnamilegacy instead of bitnami (#653)
-    - kind: changed
-      description: 'chore(app-proxy): update cap-app-proxy image tags to 1.3702.0 (#659)'
-    - kind: changed
-      description: 'test: update platform mock(me) (#656)'
-    - kind: changed
-      description: 'fix: support failing release if app sync fails (#645)'
-    - kind: changed
-      description: 'chore(CR-30232): updated oauth2, golang.org/x/net, github.com/cloudflare (#639)'
-    - kind: changed
-      description: 'chore(app-proxy): update cap-app-proxy image tags to 1.3701.0 (#654)'
-    - kind: changed
-      description: updated cspd enrichers (#652)
-    - kind: changed
-      description: 'fix: update leader elector image tag to remove version prefix ''v'' (#651)'
-    - kind: changed
-      description: 'feat: solve out-of-sync crds in Argo CD v3 (#630)'
-    - kind: changed
-      description: 'feat: add leader election support to agent and remove from handler (#647)'
-    - kind: changed
-      description: 'chore: update cap-app-proxy image tags to 1.3694.0 - use proxy env vars in git operations (#646)'
-    - kind: changed
-      description: quote proxy env vars (#644)
-    - kind: changed
-      description: 'fix: update workflow submission logic and improve error handling (#625)'
-    - kind: changed
-      description: 'chore: update cap-app-proxy image tags to 1.3688.0 - fix eventBusName when using jetstream (#636)'
-    - kind: changed
-      description: 'fix: argo helm bump redis version (#631)'
-    - kind: changed
-      description: 'feat(app-proxy): add leader election (#621)'
-    - kind: changed
-      description: 'chore: update cap-app-proxy image tags to 1.3680.0 - fix: return the pushed commit sha (#6560) (#628)'
-    - kind: changed
-      description: 'chore: Gitops Operator to v0.8.11 to fix 4 issues (#624)'
-    - kind: changed
-      description: 'fix: GITOPS_OPERATOR_VERSION should be based upon its own tag, and not the chart appVersion (#626)'
-    - kind: changed
-      description: 'fix: event-reporter should handle applications from a specific argo-cd instance (#618)'
+      description: 'feat: bob (#22)'
 dependencies:
   - name: argo-cd
     repository: https://codefresh-io.github.io/argo-helm
