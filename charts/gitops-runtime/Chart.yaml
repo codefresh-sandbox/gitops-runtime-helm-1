@@ -15,13 +15,13 @@ annotations:
   artifacthub.io/alternativeName: "codefresh-gitops-runtime"
   artifacthub.io/changes: |-
     - kind: changed
+      description: Update codefresh-cm.yaml (#25)
+    - kind: changed
+      description: trigger
+    - kind: changed
+      description: trigger
+    - kind: changed
       description: Update Chart.yaml and changelog for 0.71.0 release (#19)
-    - kind: changed
-      description: 'chore: Gitops Operator to v0.8.11 to fix 4 issues (#624)'
-    - kind: changed
-      description: 'fix: GITOPS_OPERATOR_VERSION should be based upon its own tag, and not the chart appVersion (#626)'
-    - kind: changed
-      description: 'fix: event-reporter should handle applications from a specific argo-cd instance (#618)'
 dependencies:
   - name: argo-cd
     repository: https://codefresh-io.github.io/argo-helm
